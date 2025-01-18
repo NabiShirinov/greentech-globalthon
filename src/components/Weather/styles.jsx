@@ -1,0 +1,48 @@
+import {StyleSheet} from 'react-native';
+import {Colors, Fonts} from '../../assets/default_styles';
+export const styles = StyleSheet.create({
+    container:{
+        alignItems:"start",
+        justifyContent:"center",
+        flexDirection:"column",
+        borderRadius:20,
+        padding:20,
+        gap:10,
+        width:"90%",
+    },
+    main:{
+        flexDirection:"row",
+        gap:15,
+        justifyContent:"space-between"
+    },
+    hl:{
+        flexDirection:"column",
+        alignItems:"center",
+        justifyContent:"center",
+        zIndex:-123
+    },
+    taptofindText:{
+        fontFamily:Fonts.normal,
+        fontSize:30,
+    },
+    temperature:{
+        fontFamily:Fonts.bold,
+        justifyContent:"center",
+        alignItems:"center",
+        paddingTop:10
+    },
+    search:{
+        position:"absolute",
+        left:10,
+        top:10,
+        padding:20
+    },
+    infoName:{
+        fontFamily:Fonts.normal,
+        fontSize:16
+    },
+    infoValue:{
+        fontFamily:Fonts.bold,
+        fontSize:15
+    }
+})
